@@ -1,0 +1,149 @@
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+<img src="img/formCreation1.jpg" width="100%" alt="">
+    <div class="container">
+      <style>
+        table
+        {
+          font-size: 15px;
+          align-items: center;
+          display: table;
+          width:35%;
+          margin: auto;
+          border:0px solid lightblue;
+          height:450px;
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+          border-radius: 10px;
+        }
+        tr
+        {
+          margin: auto;
+          padding: 20px 20px;
+          align-items: center;
+        }
+        th
+        {
+          text-align: right;
+          padding-right: 10px;
+          font-weight: lighter;
+        }
+        td
+        {
+          text-align: left;
+          padding-left: 10px;
+        }
+        .txt
+        {
+           height: 30px;
+           width:300px;
+           border-radius:5px;
+        }
+        .txt:focus
+        {
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+        }
+        textarea:focus
+        {
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+        }
+        td,textarea
+        {
+          border-radius: 5px;
+        }
+        button
+        {
+          margin: 10px 50px;
+          padding: 10px 10px;
+          background-color: lightblue;
+          border:1px solid red;
+          border-radius: 10px;
+          text-align: center;
+        }
+        button:hover
+        {
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+        }
+      </style>
+        <div class="cards-section">
+            <h1><center>Add blog</center></h1>
+          <form action="" method="post" name="myForm" >
+            <table>
+              <tr><td>
+                <br>
+              </td></tr>
+              <tr>
+                
+                <th>Blog Title</th>
+                <td><input class="txt" type="text" id="blogtitle" name="blogtitle" /></td>
+              </tr>
+              <tr>  
+                <th>Blog Image</th>
+                <td><input  class="txt" type="file" id="img" name="img" /></td>
+              </tr>
+              <tr>
+                <th>Description</th>
+                <td><textarea type="textarea" id="description" rows="5" cols="47" name="description"> </textarea></td>
+              </tr>
+              <tr>
+                <th>Blog Type</th>
+                <td> <select name="type" id="type" class="txt">
+                  <option value="">----- Select -----</option>
+                  <option value="General">General</option>
+                  <option value="Tech">Tech</option>
+                  <option value="Food">Food</option>
+                  <option value="Political">Political</option>
+                  <option value="History">History</option>
+              </select></td>
+              </tr>
+              <tr>
+                <th>Published Date</th>
+                <td><input  class="txt" type="text" placeholder="eg. 25-10-2021" id="publisheddate" name="publisheddate" /></td>
+              </tr>
+              <tr>
+                <th>Author Name</th>
+                <td><input  class="txt" type="text" id="authorname" name="authorname" /></td>
+              </tr>
+              <tr>
+                <th>Gender</th>
+                <td><input type="radio" id="radio1" name="gender" value="Male" />Male </br> 
+                    <input type="radio" id="radio1" name="gender" value="Female" />Female </td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td><input  class="txt" type="tel" id="email" name="email" /></td>
+              </tr>
+              <tr>
+                <th>Password</th>
+                <td><input  class="txt" type="password" id="password" name="password" /></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="height:10px;padding-left:80px;"><button type="submit" id="submit" name="submit"> Submit</button>
+                  <button type="reset" id="reset" name="reset">Reset</button></td>
+                
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div id="err">
+                    <% 
+                    if (typeof(errors) != 'undefined')
+                    {
+                      for (let error of errors)
+                      {
+                    %>
+                        <p class="errors"> <%= error.msg %></p>
+                    <%
+                      }
+                    }
+                    %>
+              
+                </div>
+                </td>
+              </tr>
+            </table>
+
+          </form>
+        </div>        
+    </div>
+    </div>
+<%- include('layouts/footer'); -%>
+    

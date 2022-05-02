@@ -1,0 +1,104 @@
+
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+<img src="img/loginbanner.png" width="100%" alt="">
+    <div class="container">
+      <style>
+        table
+        {
+          font-size: 15px;
+          align-items: center;
+          display: table;
+          width:30%;
+          margin: auto;
+          height:200px;
+          border:0px solid lightblue;
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+          border-radius: 10px;
+        }
+        tr
+        {
+          margin: auto;
+          padding: 20px 20px;
+          align-items: center;
+        }
+        th
+        {
+          text-align: right;
+          padding-right: 10px;
+          font-weight: lighter;
+        }
+        td
+        {
+          text-align: left;
+          padding-left: 10px;
+        }
+        .txt
+        {
+           height: 30px;
+           width:300px;
+           border-radius:5px;
+        }
+        .txt:focus
+        {
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+        }
+        button
+        {
+          margin: 10px 50px;
+          padding: 10px 10px;
+          font-size: 15px;
+          background-color: lightblue;
+          border:1px solid red;
+          border-radius: 10px;
+          text-align: center;
+          width:100px;
+        }
+        button:hover
+        {
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+        }
+        #errors
+        {
+            margin-top: 20px;
+            color: red;
+            text-align: center;
+        }
+      </style>
+        <div class="cards-section">
+            <h1><center>Login</center></h1>
+          <form action="" method="post" name="myForm" >
+            <table>
+              <tr><td>
+                <br>
+              </td></tr>
+              <tr>
+                
+                <th>Email</th>
+                <td><input class="txt" type="text" id="email" name="email" required /></td>
+              </tr>
+              <tr>  
+                <th>Password</th>
+                <td><input  class="txt" type="password" id="pass" name="pass" required /></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="height:10px;padding-left:80px;"><button type="submit" id="login" name="login">Login</button>
+                </td>
+                
+              </tr>
+            </table>
+            <p id="errors">
+                <% 
+                  if (typeof(error) !== 'undefined') {
+                %>
+                      <%= error %>
+                <% 
+                  }
+                %> 
+            </p>
+          </form>
+        </div>        
+    </div>
+    </div>
+<%- include('layouts/footer'); -%>
+    

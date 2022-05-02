@@ -1,0 +1,27 @@
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+
+    <div class="container">
+        <div class="cards-section">
+            <h1><center>Details</center></h1>
+            <ul class="cards">
+                  
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image">
+                                <img src=<%= "../Img/" + blog.img %> alt="">
+                            </div>
+                            <div class="card_content">
+                                <h2>Title: <%= blog.blogtitle %></h2>
+                                <h4>Type: <%= blog.type %></h4>
+                                <h4> <img src="../Img/authoricon.png" style="height:25px;width:25px;" alt="">Author: <%= blog.authorname %></h4>
+                                <p style="text-align: justify;"><%= blog.description %></p>
+                            </div>
+                            <a style="margin:25px 25px;text-align: center;font-size: 25px;color:black;border-radius: 10px;border: 1px solid lightblue;padding: 10px 10px;"
+                             href="/blogs">Back to list</a>
+                        </div>
+                    </li>                              
+        </div>        
+    </div>
+<%- include('layouts/footer'); -%>
+    

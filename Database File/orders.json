@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "624b2ef6acb9061010d42aed"
+  },
+  "name": "Aniket Rana",
+  "address": "570 - Linden Drive",
+  "city": "Cambridge",
+  "province": "Ontario",
+  "burgerqty": 1,
+  "pizzaqty": 2,
+  "wrapqty": 3,
+  "phone": "4373316725",
+  "email": "Arana7169@conestogac.on.ca",
+  "tax": "0.13",
+  "taxamt": 6.11,
+  "total": 53.11,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624b2f36acb9061010d42af0"
+  },
+  "name": "Jhon",
+  "address": "King street",
+  "city": "Waterloo",
+  "province": "Ontario",
+  "burgerqty": 3,
+  "pizzaqty": 3,
+  "wrapqty": 3,
+  "phone": "1234567890",
+  "email": "Jhon@gmail.com",
+  "tax": "0.13",
+  "taxamt": 8.58,
+  "total": 74.58,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624b2fb1acb9061010d42af3"
+  },
+  "name": "Smith",
+  "address": "Marcus Road",
+  "city": "Vancouver",
+  "province": "British Columbia",
+  "burgerqty": 3,
+  "pizzaqty": 2,
+  "wrapqty": 1,
+  "phone": "6543216523",
+  "email": "smith@gmail.com",
+  "tax": "0.12",
+  "taxamt": 4.92,
+  "total": 45.92,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624b5a6aacb9061010d42afa"
+  },
+  "name": "David",
+  "address": "Young Street",
+  "city": "Toronto",
+  "province": "Ontario",
+  "burgerqty": 2,
+  "pizzaqty": 2,
+  "wrapqty": 2,
+  "phone": "6543216523",
+  "email": "David@outlook.com",
+  "tax": "0.13",
+  "taxamt": 5.720000000000001,
+  "total": 49.72,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624b5d4b132627b1ee0b7ab6"
+  },
+  "name": "Davis",
+  "address": "Dundas street",
+  "city": "Toronto",
+  "province": "Ontario",
+  "burgerqty": 3,
+  "pizzaqty": 3,
+  "wrapqty": 3,
+  "phone": "9876543210",
+  "email": "Davis@yahoo.com",
+  "tax": "0.13",
+  "taxamt": 8.58,
+  "total": 94.58,
+  "__v": 0
+}]

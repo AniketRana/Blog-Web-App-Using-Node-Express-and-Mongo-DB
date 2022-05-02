@@ -1,0 +1,100 @@
+<%- include('layouts/header'); -%>
+<%- include('layouts/nav'); -%>
+<img src="img/formCreation1.jpg" width="100%" alt="">
+    <div class="container">
+      <style>
+        table
+        {
+          font-size: 15px;
+          align-items: center;
+          display: table;
+          width:100%;
+          margin: auto;
+          border:0px solid lightblue;
+          box-shadow: 0px 0px  10px 5px #83b2edcc;
+          border-radius: 10px;
+        }
+        tr
+        {
+          
+          margin: auto;
+          padding: 20px 20px;
+          align-items: center;
+        }
+        th
+        {
+          font-size: 20px;
+          text-align: center;
+          padding: 10px 10px;
+          font-weight:lighter;
+        }
+        td
+        {
+        text-align: justify;
+          font-weight: lighter;
+          padding: 7px 7px;
+        }
+        .add{
+            float: right;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom:30px;
+            margin-right: 100px;
+            border: 1px solid rgb(203, 211, 214);
+        }
+        .add:hover
+        {
+            box-shadow: 0px 0px 5px 10px lightblue;
+        }
+        
+      </style>
+        <div class="cards-section">
+            <h1><center>Blogs Details</center></h1>
+            <hr>
+            <br>
+            <a class="add" href="/logout" >Logout</a>
+            
+            <a class="add" href="/form" >Add New Blog</a>
+            <br>
+            <br>
+            <table border="1">
+                <thead>
+                    <th>Blog Title</th>
+                    <th>Image</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                    <th>Published Date</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                </thead>
+                <tbody>
+                    <%
+                        for(var blog of blogs) {
+                    %>
+                        <tr>
+                            <td><%= blog.blogtitle %></td>
+                            <td><img style="height: 50px;width: 50px;border-radius:10px;" 
+                                src=<%= "Img/" + blog.img %> alt="">  </td>
+                            <td><%= blog.description %></td>
+                            <td><%= blog.type %></td>
+                            <td><%= blog.publisheddate %></td>
+                            <td><%= blog.authorname %></td>
+                            <td><%= blog.gender %></td>
+                            <td><%= blog.email %></td>                            
+                            <td> <a href="/delete/<%= blog._id %>">Delete</a></td>
+                            <td> <a href="/edit/<%= blog._id %>">edit</a></td>
+                        </tr>                
+                    <%
+                    } 
+                    %>
+                </tbody>
+            </table>
+        </div>        
+    </div>
+    </div>
+<%- include('layouts/footer'); -%>
+    

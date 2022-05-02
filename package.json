@@ -1,0 +1,19 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "My website with MERN tech stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aniket Rana",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose": "*",
+    "nodemon": "^2.0.15"
+  }
+}

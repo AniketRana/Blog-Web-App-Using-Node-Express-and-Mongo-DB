@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "6250ab56d27b96c43dda9b11"
+  },
+  "blogtitle": "AI Future",
+  "img": "TechBlogs.jpg",
+  "description": " AI is projected to have a lasting impact on just about every industry imaginable. We're already seeing artificial intelligence in our smart devices, cars, healthcare system and favorite apps, and we'll continue to see its influence permeate deeper into many other industries for the foreseeable future.\r\n",
+  "type": "Tech",
+  "publisheddate": "01-01-2021",
+  "gender": "Male",
+  "email": "Aniket@gmail.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Aniket Rana"
+},{
+  "_id": {
+    "$oid": "6250b8a4ace5a416403f7faf"
+  },
+  "blogtitle": "Vaccination ",
+  "img": "b3.jpg",
+  "description": "Omicron’s fast-moving wave has forced us to learn about this variant’s quirks at the same time it’s causing explosive case rates around the world. Each country has a unique set of circumstances, including different percentages of the population with immunity from vaccination or prior infections, making it even harder to extrapolate patterns.\r\n",
+  "type": "General",
+  "publisheddate": "18-04-2010",
+  "gender": "Male",
+  "email": "Andrew@outloot.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Andrew"
+},{
+  "_id": {
+    "$oid": "6250b924ace5a416403f7fb2"
+  },
+  "blogtitle": "Food Science",
+  "img": "b12.jpg",
+  "description": " As a Food Science student, in the Bachelor of Science degree program, you will apply chemistry, microbiology and physics to study the processing and development of food products and processes. The program also covers aspects of law, health, nutrition, and security as they relate to food safety and quality.\r\n",
+  "type": "General",
+  "publisheddate": "29-03-2023",
+  "gender": "Male",
+  "email": "Vyas@yahoo.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Vyas"
+},{
+  "_id": {
+    "$oid": "6250b976ace5a416403f7fb4"
+  },
+  "blogtitle": "Healthy Eating Habit",
+  "img": "b13.jpg",
+  "description": " A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.\r\n",
+  "type": "Food",
+  "publisheddate": "26-03-2020",
+  "gender": "Female",
+  "email": "Nikita@gmail.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Nikita"
+},{
+  "_id": {
+    "$oid": "6250b9e0ace5a416403f7fb6"
+  },
+  "blogtitle": "science is everywhere",
+  "img": "b9.jpg",
+  "description": " Science is Everywhere, Science is for Everyone is a fun and innovative way to introduce young readers to a variety of sciences. Through familiar concepts and examples, readers will learn about subjects such as geology, chemistry, microbiology, anatomy, and astronomy. Young readers will learn science can be as simple as baking a cake or visiting the zoo to thrilling adventures such as studying the ocean or launching a rocket. Science is Everywhere, Science is for Everyone is designed to both display and diversify science for children.\r\n\r\n",
+  "type": "Tech",
+  "publisheddate": "13-08-2019",
+  "gender": "Male",
+  "email": "Rahul@outlook.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Rahul"
+},{
+  "_id": {
+    "$oid": "6250ba54ace5a416403f7fb9"
+  },
+  "blogtitle": "Use of gadgets ",
+  "img": "b10.jpg",
+  "description": " Gadgets have made our lives pleasurable and comfy. Starting from the summer to the winter season, we are making ourselves with AC and room heaters. Some of the other gadgets include a dryer hair straightener. You can't be able to find a single house without these gadgets.",
+  "type": "General",
+  "publisheddate": "20-12-2022",
+  "gender": "Male",
+  "email": "Smith@Gmail.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Smith"
+},{
+  "_id": {
+    "$oid": "6250badcace5a416403f7fbc"
+  },
+  "blogtitle": "Misson moon",
+  "img": "b17.jpg",
+  "description": " Six missions landed humans on the Moon, beginning with Apollo 11 in July 1969, during which Neil Armstrong became the first person to walk on the Moon. Apollo 13 was intended to land; however, it was restricted to a flyby due to a malfunction aboard the spacecraft. All nine crewed missions returned safely to the Earth.\r\n",
+  "type": "Tech",
+  "publisheddate": "22-02-2022",
+  "gender": "Male",
+  "email": "Richard@gmail.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Richard"
+},{
+  "_id": {
+    "$oid": "6250bb36ace5a416403f7fbe"
+  },
+  "blogtitle": "political power",
+  "img": "b1.jpg",
+  "description": " Political power is the ability to control the behavior of people and/or influence the outcome of events. Political power enables people or groups to control the policies, functions, and culture of society.",
+  "type": "Political",
+  "publisheddate": "26-03-2018",
+  "gender": "Male",
+  "email": "Nivya@gmail.com",
+  "password": "123456",
+  "__v": 0,
+  "authorname": "Nivya"
+},{
+  "_id": {
+    "$oid": "62549ba57338a05b363b0f24"
+  },
+  "blogtitle": "robots are future",
+  "img": "b6.jpg",
+  "description": " There has been a study that the number of robots will increase over the next decade, and about 25% of the human labor work will be performed by robots. This will possible because of the reduction in the manufacturing costs and improvement in the overall performance.\r\n",
+  "type": "Tech",
+  "publisheddate": "18-04-2010",
+  "authorname": "Utshav Singh",
+  "gender": "Male",
+  "email": "Utshav@gmail.com",
+  "password": "123456",
+  "__v": 0
+}]
